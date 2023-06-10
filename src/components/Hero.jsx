@@ -1,5 +1,4 @@
 import React from 'react';
-import HeroImage from '../images/image-hero.webp'
 
 function Hero() {
   return (
