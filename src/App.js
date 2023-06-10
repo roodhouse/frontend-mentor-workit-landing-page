@@ -4,6 +4,7 @@ import Cards from './components/Cards';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import BorderTriangleTwo from './components/BorderTriangleTwo'
+import Profile from './components/Profile';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <BorderTriangle />
       <Cards />
       <BorderTriangleTwo />
+      <Profile />
     </div>
   );
 }
