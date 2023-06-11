@@ -3,8 +3,8 @@ import React from 'react';
 function Hero() {
   return (
     <div id='hero' className='bg-darkPurple pt-16'>
-        <div id='heroTextContainer' className='flex flex-col text-center px-4'>
-            <div id='heroText' className='font-["Fraunces"] text-white font-semibold text-[47px] leading-[53px] mb-10'>
+        <div id='heroTextContainer' className='flex flex-col items-center text-center px-4'>
+            <div id='heroText' className='font-["Fraunces"] text-white font-semibold text-[47px] leading-[53px] mb-10 max-w-[375px]'>
                 <h1>Data <span className='underline decoration-eucaplyptus decoration-[3px] underline-offset-[9px]'>tailored</span> to your needs.</h1>
             </div>
             <div id='heroButton' className='pb-[156px]'>

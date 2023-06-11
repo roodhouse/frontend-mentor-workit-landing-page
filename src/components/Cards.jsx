@@ -5,7 +5,7 @@ import CardThree from './cards/CardThree'
 
 function Cards() {
   return (
-    <div id='cardContainer' className='bg-ghostWhite pt-16 flex flex-col items-center justify-center px-4'>
+    <div id='cardContainer' className='bg-ghostWhite flex flex-col items-center justify-center px-4'>
         <CardOne />
         <CardTwo />
         <CardThree />
