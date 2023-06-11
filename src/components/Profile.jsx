@@ -1,5 +1,6 @@
 import React from 'react';
 import ProfilePic from '../images/image-founder.webp'
+import PatternThree from '../images/bg-pattern-3.svg'
 
 function Profile() {
   return (
@@ -11,12 +12,15 @@ function Profile() {
         <div id='profileHeading' className='text-white p-8 font-["Fraunces"] text-[32px] leading-[48px] font-semibold lg:text-5xl lg:leading-[56px] lg:pb-6 lg:pl-0'>
             <h2>Be the first to test</h2>
         </div>
-        <div id='profileDetails' className='text-white p-8 font-["Manrope"] text-base leading-7 text-center font-normal lg:pt-0 lg:pb-6 lg:pl-0'>
+        <div id='profileDetails' className='text-white p-8 font-["Manrope"] text-base leading-7 text-center font-normal lg:pt-0 lg:pb-6 lg:pl-0 lg:max-w-[435px]'>
             <p className='lg:text-left'>Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a beta tester for our app and kickstart your company. Apply for access below and I'll be in touch to schedule a call.</p>
         </div>
         <div id='profileButton' className='text-darkPurple mb-8 lg:mb-14'>
         <button className='text-darkPurple font-["Manrope"] font-bold text-base leading-8 text-center tracking-[-0.16px] bg-eucaplyptus px-6 py-3'>Apply for access</button>
         </div>
+        </div>
+        <div id='patternThree' className='hidden lg:block lg:absolute lg:top-[1728px] lg:left-[500px]'>
+            <img src={PatternThree} alt="third pattern" />
         </div>
     </div>
   )
