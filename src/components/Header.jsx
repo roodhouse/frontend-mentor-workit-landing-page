@@ -3,7 +3,7 @@ import LogoLight from '../images/logo-light.svg'
 
 function Header() {
   return (
-    <div className='bg-darkPurple flex items-center justify-between pt-8 px-4'>
+    <div className='bg-darkPurple flex items-center justify-between pt-8 px-4 lg:px-10'>
         <div id='logoLight'>
             <img src={LogoLight} alt='workit logo' />
         </div>
