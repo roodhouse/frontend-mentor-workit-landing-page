@@ -1,4 +1,6 @@
 import React from 'react';
+import PatternOne from '../images/bg-pattern-1.svg'
+import PatternTwo from '../images/bg-pattern-2.png'
 
 function Hero() {
   return (
@@ -11,7 +13,15 @@ function Hero() {
                 <button className='text-darkPurple font-["Manrope"] font-bold text-base leading-8 text-center tracking-[-0.16px] bg-eucaplyptus px-6 py-3'>Learn More</button>
             </div>
         </div>
-        
+        <div id='patternOne' className='hidden lg:block lg:absolute lg:top-[75px] lg:left-[-230px]'>
+          <img src={PatternOne} alt="generic pattern" />
+        </div>
+        <div id='patternTwoContainer'>
+        <div id='patternTwo' className='hidden lg:block lg:absolute lg:top-[250px] lg:right-[-90px] lg:w-[160px] lg:right-0'>
+          <img src={PatternTwo} alt="generic pattern two" />
+        </div>
+
+        </div>
     </div>
   )
 }
