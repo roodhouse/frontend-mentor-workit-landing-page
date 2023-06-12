@@ -46,7 +46,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution URL here](https://github.com/roodhouse/frontend-mentor-workit-landing-page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [live site URL here](https://workit.rugh.us/)
 
 ## My process
 
