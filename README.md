@@ -28,17 +28,17 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
-mobile
+#### mobile
 ![](/src/images/mob01.png)
 ![](/src/images/mob02.png)
 ![](/src/images/mob03.png)
 
-tablet
+#### tablet
 ![](/src/images/tab01.png)
 ![](/src/images/tab02.png)
 ![](/src/images/tab03.png)
 
-desktop
+#### desktop
 ![](/src/images/dt01.png)
 ![](/src/images/dt02.png)
 ![](/src/images/dt03.png)
