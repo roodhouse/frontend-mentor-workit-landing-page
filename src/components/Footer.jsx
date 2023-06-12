@@ -11,13 +11,13 @@ function Footer() {
             <img src={DarkLogo} alt="the darker logo" />
         </div>
         <div id='socialMedia' className='flex flex-row justify-evenly w-full lg:max-w-[116px] lg:justify-between'>
-            <div id='facebook'>
+            <div id='facebook' className='hover:cursor-pointer'>
                 <img src={Facebook} alt="facebook" />
             </div>
-            <div id='twitter'>
+            <div id='twitter' className='hover:cursor-pointer'>
                 <img src={Twitter} alt="twitter" />
             </div>
-            <div id='instagram'>
+            <div id='instagram' className='hover:cursor-pointer'>
                 <img src={Instagram} alt="instagram" />
             </div>
         </div>
