@@ -1,3 +1,5 @@
-1. set up tailwind - done
-2. configure fonts - done
-3. configure colors - done
+1. run build local
+2. move index and other associated files from build and to root
+3. edit those files with correct paths
+4. upload to github
+5. configure pages
